@@ -4,7 +4,8 @@
   "description": "An AI API with advanced reasoning and decision-making.",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "build": "npm install"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -14,3 +15,4 @@
     "node": ">=14.0.0"
   },
   "license": "MIT"
+}
